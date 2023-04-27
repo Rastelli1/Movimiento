@@ -1,0 +1,138 @@
+[gd_scene load_steps=28 format=3 uid="uid://c7ngf1bl4f3y7"]
+
+[ext_resource type="Script" path="res://Personaje.gd" id="1_fgyxn"]
+[ext_resource type="Texture2D" uid="uid://db0cblur2got0" path="res://spritesParaAnimaciones/Caminando/gatoCaminando2.png" id="2_80ald"]
+[ext_resource type="Texture2D" uid="uid://dyknk168nwyls" path="res://spritesParaAnimaciones/Caminando/GatoCaminando3.png" id="3_ekbmt"]
+[ext_resource type="Texture2D" uid="uid://b0rtogot5v60l" path="res://spritesParaAnimaciones/Caminando/gatoCaminando1.png" id="4_h1nqh"]
+[ext_resource type="Texture2D" uid="uid://dg0ycyf6dmbcc" path="res://spritesParaAnimaciones/Caminando/GatoCaminando4.png" id="5_p2vr7"]
+[ext_resource type="Texture2D" uid="uid://iwv45yrpffol" path="res://spritesParaAnimaciones/Caminando/GatoCaminando5.png" id="6_vi766"]
+[ext_resource type="Texture2D" uid="uid://cufegpbfqwvqe" path="res://spritesParaAnimaciones/Caminando/GatoCaminando6.png" id="7_bxhua"]
+[ext_resource type="Texture2D" uid="uid://demdboc83hahx" path="res://spritesParaAnimaciones/Caminando/GatoCaminando8.png" id="8_wpixm"]
+[ext_resource type="Texture2D" uid="uid://4y16gdocdgqg" path="res://spritesParaAnimaciones/Caminando/GatoCaminando7.png" id="9_p7sbn"]
+[ext_resource type="Texture2D" uid="uid://hqpgn6mu3qc5" path="res://spritesParaAnimaciones/Parado/GatoParado1.png" id="10_dyqyg"]
+[ext_resource type="Texture2D" uid="uid://dgikocasf5xci" path="res://spritesParaAnimaciones/Parado/GatoParado2.png" id="11_onv83"]
+[ext_resource type="Texture2D" uid="uid://cm6kremu0q4p1" path="res://spritesParaAnimaciones/Parado/GatoParado4.png" id="12_jro2c"]
+[ext_resource type="Texture2D" uid="uid://ufpmiq41vani" path="res://spritesParaAnimaciones/Parado/GatoParado3.png" id="13_h3e5g"]
+[ext_resource type="Texture2D" uid="uid://dd4k5ijy4dyts" path="res://spritesParaAnimaciones/Parado/GatoParado5.png" id="14_m8xu8"]
+[ext_resource type="Texture2D" uid="uid://bp0fd20jrn3wc" path="res://spritesParaAnimaciones/Parado/GatoParado6.png" id="15_1wyrn"]
+[ext_resource type="Texture2D" uid="uid://d3qs0xlcy6316" path="res://spritesParaAnimaciones/saltando/gatoSaltando4.png" id="19_ww7dh"]
+[ext_resource type="Texture2D" uid="uid://dfvr3yp1hr6jk" path="res://spritesParaAnimaciones/saltando/gatoSaltando5.png" id="20_5wpnp"]
+[ext_resource type="Texture2D" uid="uid://bjp4tolhrb23v" path="res://spritesParaAnimaciones/saltando/gatoSaltando6.png" id="21_jl2df"]
+[ext_resource type="Texture2D" uid="uid://bisj2q8tlb7m" path="res://spritesParaAnimaciones/saltando/gatoSaltando7.png" id="22_k25t6"]
+[ext_resource type="Texture2D" uid="uid://cffgd280dki15" path="res://spritesParaAnimaciones/saltando/gatoSaltando8.png" id="23_o46p7"]
+[ext_resource type="Texture2D" uid="uid://cj2fd0yc1ko3d" path="res://spritesParaAnimaciones/saltando/gatoSaltando9.png" id="24_e6644"]
+[ext_resource type="Texture2D" uid="uid://bapvmpa70ow1w" path="res://spritesParaAnimaciones/saltando/gatoSaltando11.png" id="25_rh3uf"]
+[ext_resource type="Texture2D" uid="uid://bxecmdor7cpme" path="res://spritesParaAnimaciones/saltando/gatoSaltando10.png" id="26_mjtx2"]
+[ext_resource type="Texture2D" uid="uid://degss2712blip" path="res://spritesParaAnimaciones/saltando/gatoSaltando12.png" id="27_rq3g3"]
+[ext_resource type="Texture2D" uid="uid://d131iwsdlw658" path="res://spritesParaAnimaciones/saltando/gatoSaltando13.png" id="28_0n7v8"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_a3gh1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_80ald")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ekbmt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_h1nqh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_p2vr7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_vi766")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_bxhua")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_wpixm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_p7sbn")
+}],
+"loop": true,
+"name": &"caminando",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_dyqyg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_onv83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_jro2c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_h3e5g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_m8xu8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_1wyrn")
+}],
+"loop": true,
+"name": &"parado",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.7,
+"texture": ExtResource("19_ww7dh")
+}, {
+"duration": 0.7,
+"texture": ExtResource("20_5wpnp")
+}, {
+"duration": 0.7,
+"texture": ExtResource("21_jl2df")
+}, {
+"duration": 0.7,
+"texture": ExtResource("22_k25t6")
+}, {
+"duration": 0.7,
+"texture": ExtResource("23_o46p7")
+}, {
+"duration": 0.7,
+"texture": ExtResource("24_e6644")
+}, {
+"duration": 0.7,
+"texture": ExtResource("25_rh3uf")
+}, {
+"duration": 0.7,
+"texture": ExtResource("26_mjtx2")
+}, {
+"duration": 0.7,
+"texture": ExtResource("27_rq3g3")
+}, {
+"duration": 0.01,
+"texture": ExtResource("28_0n7v8")
+}],
+"loop": true,
+"name": &"saltando",
+"speed": 4.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s8rkn"]
+size = Vector2(50, 47.3438)
+
+[node name="Personaje" type="CharacterBody2D"]
+position = Vector2(-4, 148)
+script = ExtResource("1_fgyxn")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(113.5, -54.1035)
+scale = Vector2(4.6875, 3.45287)
+sprite_frames = SubResource("SpriteFrames_a3gh1")
+animation = &"saltando"
+autoplay = "saltando"
+frame = 2
+frame_progress = 0.217266
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(110, -50.6719)
+shape = SubResource("RectangleShape2D_s8rkn")
